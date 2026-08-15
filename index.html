@@ -1,0 +1,561 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Portfolio of Kashif Hussain - Final-year Software Engineering Student, Cloud & DevOps Enthusiast specializing in AWS, Docker, Kubernetes, Terraform, and MERN Stack.">
+    <title>Kashif Hussain | Cloud & DevOps Engineer</title>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Outfit:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+
+    <!-- Main Stylesheet -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Background Grid & Glow Effects -->
+    <div class="bg-glow bg-glow-1"></div>
+    <div class="bg-glow bg-glow-2"></div>
+    <div class="bg-grid-pattern"></div>
+
+    <!-- Navigation Bar -->
+    <header class="navbar" id="navbar">
+        <div class="container nav-container">
+            <a href="#home" class="logo">
+                <span class="logo-code">&lt;</span>Kashif<span class="accent">.Hussain</span><span class="logo-code"> /&gt;</span>
+            </a>
+
+            <nav class="nav-menu" id="nav-menu">
+                <ul class="nav-list">
+                    <li><a href="#home" class="nav-link active">Home</a></li>
+                    <li><a href="#about" class="nav-link">About</a></li>
+                    <li><a href="#skills" class="nav-link">Skills</a></li>
+                    <li><a href="#projects" class="nav-link">Projects</a></li>
+                    <li><a href="#experience" class="nav-link">Experience</a></li>
+                    <li><a href="#contact" class="nav-link">Contact</a></li>
+                </ul>
+            </nav>
+
+            <div class="nav-actions">
+                <a href="#contact" class="btn btn-nav">Contact Me</a>
+                <button class="hamburger" id="hamburger" aria-label="Toggle navigation menu">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section class="hero section" id="home">
+            <div class="container hero-container">
+                <div class="hero-content">
+                    <div class="badge hero-badge">
+                        <span class="status-dot"></span>
+                        Available for Cloud & DevOps Opportunities
+                    </div>
+                    
+                    <h1 class="hero-quote">
+                        "IMAGINATION IS MORE IMPORTANT THAN <span class="text-gradient">KNOWLEDGE</span>"
+                    </h1>
+                    
+                    <h2 class="hero-subtitle">
+                        Building Scalable Cloud & DevOps Architectures
+                    </h2>
+
+                    <p class="hero-description">
+                        Hi, I'm <strong class="text-white">Kashif Hussain</strong>, a final-year Software Engineering student passionate about infrastructure automation, containerization, cloud computing, and full-stack development.
+                    </p>
+
+                    <div class="hero-buttons">
+                        <a href="#projects" class="btn btn-primary">
+                            <span>View Projects</span>
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+                        </a>
+                        <a href="#contact" class="btn btn-secondary">Get In Touch</a>
+                    </div>
+
+                    <div class="hero-socials">
+                        <span class="social-label">Connect:</span>
+                        <a href="https://github.com" target="_blank" rel="noopener noreferrer" class="social-icon" aria-label="GitHub">
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0024 12c0-6.63-5.37-12-12-12z"/></svg>
+                        </a>
+                        <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" class="social-icon" aria-label="LinkedIn">
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/></svg>
+                        </a>
+                        <a href="mailto:contact@kashifhussain.dev" class="social-icon" aria-label="Email">
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><path d="M22 6l-10 7L2 6"/></svg>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="hero-visual">
+                    <div class="terminal-card">
+                        <div class="terminal-header">
+                            <div class="terminal-dots">
+                                <span class="dot red"></span>
+                                <span class="dot yellow"></span>
+                                <span class="dot green"></span>
+                            </div>
+                            <div class="terminal-title">kashif@ubuntu:~</div>
+                        </div>
+                        <div class="terminal-body">
+                            <p><span class="prompt">$</span> <span class="command">whoami</span></p>
+                            <p class="response text-accent">&gt; Kashif Hussain (Roll: k23swo43)</p>
+                            <p><span class="prompt">$</span> <span class="command">cat status.json</span></p>
+                            <p class="response">
+{<br>
+&nbsp;&nbsp;<span class="json-key">"education"</span>: <span class="json-str">"MUET Software Engineering"</span>,<br>
+&nbsp;&nbsp;<span class="json-key">"environment"</span>: <span class="json-str">"Linux Ubuntu Desktop"</span>,<br>
+&nbsp;&nbsp;<span class="json-key">"focus"</span>: [<span class="json-str">"AWS"</span>, <span class="json-str">"Kubernetes"</span>, <span class="json-str">"Terraform"</span>],<br>
+&nbsp;&nbsp;<span class="json-key">"status"</span>: <span class="json-str">"Ready for DevOps Roles 🚀"</span><br>
+}
+                            </p>
+                            <p><span class="prompt">$</span> <span class="command">terraform apply -auto-approve</span></p>
+                            <p class="response text-dim">&gt; Infrastructure deployment in progress...</p>
+                            <p class="response text-green">&gt; Apply complete! Resources: 12 added, 0 changed, 0 destroyed.</p>
+                            <p><span class="prompt">$</span> <span class="cursor">_</span></p>
+                        </div>
+                    </div>
+
+                    <!-- Tech Floating Badges -->
+                    <div class="floating-badge badge-aws">AWS</div>
+                    <div class="floating-badge badge-k8s">Kubernetes</div>
+                    <div class="floating-badge badge-tf">Terraform</div>
+                    <div class="floating-badge badge-docker">Docker</div>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section class="about section" id="about">
+            <div class="container">
+                <div class="section-header text-center">
+                    <span class="section-subtitle">01. GET TO KNOW ME</span>
+                    <h2 class="section-title">About <span class="text-gradient">Kashif Hussain</span></h2>
+                    <div class="title-bar"></div>
+                </div>
+
+                <div class="about-grid">
+                    <div class="about-card main-bio">
+                        <div class="card-icon">
+                            <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"/><circle cx="12" cy="7" r="4"/></svg>
+                        </div>
+                        <h3>Software Engineering & Cloud Automation</h3>
+                        <p>
+                            I am a final-year <strong class="text-white">Software Engineering student at Mehran University of Engineering and Technology (MUET)</strong> (Roll Number: <code class="code-tag">k23swo43</code>). My primary technical drive centers around automating modern infrastructure, building resilient CI/CD pipelines, containerizing applications, and architecting cloud solutions.
+                        </p>
+                        <p>
+                            Operating primarily in a dedicated <strong class="text-accent">Linux Ubuntu</strong> environment, I bridge the gap between traditional software development and scalable cloud operations. From writing clean MERN stack code to managing Terraform IaC modules and Kubernetes manifests, I strive for precision and scalability.
+                        </p>
+
+                        <div class="about-highlights">
+                            <div class="highlight-item">
+                                <span class="highlight-num">4th</span>
+                                <span class="highlight-text">Final Year SE Student @ MUET</span>
+                            </div>
+                            <div class="highlight-item">
+                                <span class="highlight-num">Linux</span>
+                                <span class="highlight-text">Native Ubuntu Workstation</span>
+                            </div>
+                            <div class="highlight-item">
+                                <span class="highlight-num">DevOps</span>
+                                <span class="highlight-text">IaC & Kubernetes Focused</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="about-side">
+                        <div class="about-card feature-card">
+                            <div class="card-icon icon-green">
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg>
+                            </div>
+                            <h4>Springer Capital Internship Onboarding</h4>
+                            <p>
+                                Completed rigorous technical onboarding evaluation and assessment modules covering core DevOps principles, Git workflows, and <strong class="text-white">MLflow integration</strong>.
+                            </p>
+                        </div>
+
+                        <div class="about-card feature-card">
+                            <div class="card-icon icon-cyan">
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"/></svg>
+                            </div>
+                            <h4>Certifications In Progress</h4>
+                            <ul class="cert-list">
+                                <li>
+                                    <span class="bullet"></span>
+                                    <span><strong>CKA:</strong> Certified Kubernetes Administrator</span>
+                                </li>
+                                <li>
+                                    <span class="bullet"></span>
+                                    <span><strong>AWS:</strong> Certified Cloud Practitioner</span>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Skills Section -->
+        <section class="skills section" id="skills">
+            <div class="container">
+                <div class="section-header text-center">
+                    <span class="section-subtitle">02. MY TOOLKIT & EXPERTISE</span>
+                    <h2 class="section-title">Technical <span class="text-gradient">Skills Matrix</span></h2>
+                    <div class="title-bar"></div>
+                </div>
+
+                <div class="skills-grid">
+                    <!-- Cloud & DevOps Category -->
+                    <div class="skills-category-card">
+                        <div class="category-header">
+                            <div class="category-icon">
+                                <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 10h-1.26A8 8 0 1 0 9 20h9a5 5 0 0 0 0-10z"/></svg>
+                            </div>
+                            <h3>Cloud & DevOps</h3>
+                        </div>
+                        <p class="category-desc">Infrastructure as Code, container orchestration, and continuous deployment.</p>
+
+                        <div class="skills-tags">
+                            <div class="skill-chip active-chip">
+                                <span class="chip-dot"></span> Amazon Web Services (AWS)
+                            </div>
+                            <div class="skill-chip active-chip">
+                                <span class="chip-dot"></span> Microsoft Azure
+                            </div>
+                            <div class="skill-chip active-chip">
+                                <span class="chip-dot"></span> Terraform
+                            </div>
+                            <div class="skill-chip active-chip">
+                                <span class="chip-dot"></span> Ansible
+                            </div>
+                            <div class="skill-chip active-chip">
+                                <span class="chip-dot"></span> Docker & Docker Compose
+                            </div>
+                            <div class="skill-chip active-chip">
+                                <span class="chip-dot"></span> Kubernetes
+                            </div>
+                            <div class="skill-chip active-chip">
+                                <span class="chip-dot"></span> GitHub Actions CI/CD
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Web Development Category -->
+                    <div class="skills-category-card">
+                        <div class="category-header">
+                            <div class="category-icon icon-cyan">
+                                <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="16 18 22 12 16 6"/><polyline points="8 6 2 12 8 18"/></svg>
+                            </div>
+                            <h3>Web Development</h3>
+                        </div>
+                        <p class="category-desc">Full-stack web application development and responsive user interfaces.</p>
+
+                        <div class="skills-tags">
+                            <div class="skill-chip">
+                                <span class="chip-dot"></span> MERN Stack (React, Node, Express, Mongo)
+                            </div>
+                            <div class="skill-chip">
+                                <span class="chip-dot"></span> JavaScript (ES6+)
+                            </div>
+                            <div class="skill-chip">
+                                <span class="chip-dot"></span> HTML5 & CSS3
+                            </div>
+                            <div class="skill-chip">
+                                <span class="chip-dot"></span> Tailwind CSS
+                            </div>
+                            <div class="skill-chip">
+                                <span class="chip-dot"></span> RESTful APIs & JSON
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- AI & MLOps Category -->
+                    <div class="skills-category-card">
+                        <div class="category-header">
+                            <div class="category-icon icon-purple">
+                                <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="2" width="20" height="8" rx="2" ry="2"/><rect x="2" y="14" width="20" height="8" rx="2" ry="2"/><line x1="6" y1="6" x2="6.01" y2="6"/><line x1="6" y1="18" x2="6.01" y2="18"/></svg>
+                            </div>
+                            <h3>AI, MLOps & Automation</h3>
+                        </div>
+                        <p class="category-desc">Machine learning lifecycle tracking, multi-agent AI framework & workflow tools.</p>
+
+                        <div class="skills-tags">
+                            <div class="skill-chip">
+                                <span class="chip-dot"></span> MLflow Integration
+                            </div>
+                            <div class="skill-chip">
+                                <span class="chip-dot"></span> CrewAI Multi-Agent Systems
+                            </div>
+                            <div class="skill-chip">
+                                <span class="chip-dot"></span> n8n Workflow Automation
+                            </div>
+                            <div class="skill-chip">
+                                <span class="chip-dot"></span> Linux Bash Automation
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section class="projects section" id="projects">
+            <div class="container">
+                <div class="section-header text-center">
+                    <span class="section-subtitle">03. RECENT WORK & CASE STUDIES</span>
+                    <h2 class="section-title">Featured <span class="text-gradient">Projects</span></h2>
+                    <div class="title-bar"></div>
+                </div>
+
+                <div class="projects-grid">
+                    <!-- Project 1: PassGuard -->
+                    <article class="project-card">
+                        <div class="project-banner">
+                            <div class="project-badge">Cloud & Security</div>
+                            <div class="project-preview-graphic">
+                                <div class="lock-graphic">
+                                    <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="#22c55e" stroke-width="1.5"><rect x="3" y="11" width="18" height="11" rx="2" ry="2"/><path d="M7 11V7a5 5 0 0 1 10 0v4"/></svg>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="project-content">
+                            <h3 class="project-title">PassGuard</h3>
+                            <span class="project-subtitle">Full-Stack Password Manager Web App</span>
+                            
+                            <p class="project-desc">
+                                A full-stack password manager application built for secure credential handling, featuring master key protection, client-side encryption, and containerized deployment with Kubernetes manifests.
+                            </p>
+
+                            <div class="project-tech">
+                                <span>React</span>
+                                <span>Vite</span>
+                                <span>Node.js</span>
+                                <span>Express</span>
+                                <span>MongoDB</span>
+                                <span>Docker</span>
+                                <span>Kubernetes</span>
+                            </div>
+
+                            <div class="project-links">
+                                <a href="https://github.com" target="_blank" rel="noopener noreferrer" class="btn btn-sm btn-outline">
+                                    <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0024 12c0-6.63-5.37-12-12-12z"/></svg>
+                                    Source Code
+                                </a>
+                                <a href="#contact" class="btn btn-sm btn-primary">
+                                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
+                                    Live Demo
+                                </a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <!-- Project 2: Sukhan-e-Dil -->
+                    <article class="project-card">
+                        <div class="project-banner project-banner-2">
+                            <div class="project-badge">Mobile-First Web</div>
+                            <div class="project-preview-graphic">
+                                <div class="poetry-graphic">
+                                    <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="#06b6d4" stroke-width="1.5"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"/><path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"/></svg>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="project-content">
+                            <h3 class="project-title">Sukhan-e-Dil</h3>
+                            <span class="project-subtitle">Urdu Literature & Poetry App</span>
+                            
+                            <p class="project-desc">
+                                A mobile-first software platform designed to curate, store, and share historical Urdu poetry collections and literary works with high aesthetic typography and search filters.
+                            </p>
+
+                            <div class="project-tech">
+                                <span>JavaScript</span>
+                                <span>HTML5</span>
+                                <span>CSS3</span>
+                                <span>Node.js</span>
+                                <span>Express</span>
+                                <span>MongoDB</span>
+                            </div>
+
+                            <div class="project-links">
+                                <a href="https://github.com" target="_blank" rel="noopener noreferrer" class="btn btn-sm btn-outline">
+                                    <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0024 12c0-6.63-5.37-12-12-12z"/></svg>
+                                    Source Code
+                                </a>
+                                <a href="#contact" class="btn btn-sm btn-primary">
+                                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
+                                    Live Demo
+                                </a>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- Experience & Onboarding Section -->
+        <section class="experience section" id="experience">
+            <div class="container">
+                <div class="section-header text-center">
+                    <span class="section-subtitle">04. CAREER HIGHLIGHTS</span>
+                    <h2 class="section-title">Experience & <span class="text-gradient">Evaluations</span></h2>
+                    <div class="title-bar"></div>
+                </div>
+
+                <div class="timeline">
+                    <!-- Timeline Item 1 -->
+                    <div class="timeline-item">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-content">
+                            <span class="timeline-date">DevOps Onboarding & Evaluation</span>
+                            <h3>Springer Capital</h3>
+                            <h4 class="timeline-role">DevOps Technical Intern Applicant</h4>
+                            <p>
+                                Successfully completed comprehensive technical evaluations covering modern DevOps standards:
+                            </p>
+                            <ul class="timeline-bullets">
+                                <li>Mastered feature-branch Git workflows and automated CI/CD pipeline principles.</li>
+                                <li>Integrated <strong class="text-white">MLflow</strong> for experiment tracking and model metadata management.</li>
+                                <li>Configured automated testing and deployment workflows for scalable software delivery.</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <!-- Timeline Item 2 -->
+                    <div class="timeline-item">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-content">
+                            <span class="timeline-date">2023 - Present</span>
+                            <h3>Mehran University of Engineering and Technology</h3>
+                            <h4 class="timeline-role">Bachelor of Engineering in Software Engineering</h4>
+                            <p>
+                                Roll Number: <code class="code-tag">k23swo43</code>. Focusing on Cloud Computing, Distributed Systems, Software Architecture, and DevOps Engineering practices.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section class="contact section" id="contact">
+            <div class="container">
+                <div class="section-header text-center">
+                    <span class="section-subtitle">05. SAY HELLO</span>
+                    <h2 class="section-title">Let's Work <span class="text-gradient">Together</span></h2>
+                    <div class="title-bar"></div>
+                </div>
+
+                <div class="contact-grid">
+                    <!-- Contact Info -->
+                    <div class="contact-info-card">
+                        <h3>Contact Details</h3>
+                        <p>Have an open DevOps role, cloud architecture project, or internship inquiry? Feel free to reach out!</p>
+
+                        <div class="info-items">
+                            <div class="info-item">
+                                <div class="info-icon">
+                                    <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><path d="M22 6l-10 7L2 6"/></svg>
+                                </div>
+                                <div class="info-text">
+                                    <span class="label">Email</span>
+                                    <a href="mailto:contact@kashifhussain.dev" class="val">contact@kashifhussain.dev</a>
+                                </div>
+                            </div>
+
+                            <div class="info-item">
+                                <div class="info-icon icon-cyan">
+                                    <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+                                </div>
+                                <div class="info-text">
+                                    <span class="label">Institution / Location</span>
+                                    <span class="val">MUET, Jamshoro, Sindh, Pakistan</span>
+                                </div>
+                            </div>
+
+                            <div class="info-item">
+                                <div class="info-icon icon-purple">
+                                    <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="3" width="20" height="14" rx="2" ry="2"/><line x1="8" y1="21" x2="16" y2="21"/><line x1="12" y1="17" x2="12" y2="21"/></svg>
+                                </div>
+                                <div class="info-text">
+                                    <span class="label">Environment</span>
+                                    <span class="val">Linux Ubuntu Developer Workstation</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="contact-social-links">
+                            <a href="https://github.com" target="_blank" rel="noopener noreferrer" class="btn btn-outline btn-sm">GitHub</a>
+                            <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" class="btn btn-outline btn-sm">LinkedIn</a>
+                        </div>
+                    </div>
+
+                    <!-- Contact Form -->
+                    <div class="contact-form-card">
+                        <form id="contact-form" class="contact-form">
+                            <div class="form-group">
+                                <label for="name">Your Name</label>
+                                <input type="text" id="name" name="name" placeholder="e.g. Alex Mercer" required>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="email">Your Email</label>
+                                <input type="email" id="email" name="email" placeholder="e.g. alex@example.com" required>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="subject">Subject</label>
+                                <input type="text" id="subject" name="subject" placeholder="Project Inquiry / Job Opportunity" required>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="message">Message</label>
+                                <textarea id="message" name="message" rows="5" placeholder="Hi Kashif, I'd like to discuss a DevOps opportunity..." required></textarea>
+                            </div>
+
+                            <button type="submit" class="btn btn-primary btn-full" id="submit-btn">
+                                <span>Send Message</span>
+                                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="22" y1="2" x2="11" y2="13"/><polygon points="22 2 15 22 11 13 2 9 22 2"/></svg>
+                            </button>
+
+                            <div id="form-response" class="form-response"></div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container footer-container">
+            <div class="footer-brand">
+                <a href="#home" class="logo">
+                    <span class="logo-code">&lt;</span>Kashif<span class="accent">.Hussain</span><span class="logo-code"> /&gt;</span>
+                </a>
+                <p>Building Scalable Cloud & DevOps Architectures.</p>
+            </div>
+
+            <div class="footer-copy">
+                <p>&copy; 2026 Kashif Hussain. All rights reserved.</p>
+                <p class="text-dim">Mehran University of Engineering and Technology | Roll: k23swo43</p>
+            </div>
+
+            <a href="#home" class="back-to-top" id="backToTop" aria-label="Back to top">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="18 15 12 9 6 15"/></svg>
+            </a>
+        </div>
+    </footer>
+
+    <!-- Main JavaScript -->
+    <script src="script.js"></script>
+</body>
+</html>
