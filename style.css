@@ -447,6 +447,7 @@ body {
 .hero-container {
     display: grid;
     grid-template-columns: 1.1fr 0.9fr;
+    padding-top: 18px;
     gap: 3.5rem;
     align-items: center;
 }
