@@ -611,7 +611,7 @@ body {
 
 .badge-DevOps { top: -15px; left: 10%; border-color: rgba(249, 115, 22, 0.4); color: #f97316; }
 .badge-mern { top: -15px; left: 40%; border-color: rgba(249, 115, 22, 0.4); color: #f97316; }
-.badge-cloud { top: -15px; left: 70%; border-color: rgba(249, 115, 22, 0.4); color: #f97316; }
+.badge-mern { top: -15px; left: 70%; border-color: rgba(249, 115, 22, 0.4); color: #f97316; }
 .badge-k8s { top: 20%; right: -20px; animation-delay: 1s; border-color: rgba(59, 130, 246, 0.4); color: #60a5fa; }
 .badge-tf { top: 70%; right: -20px; animation-delay: 1s; border-color: rgba(59, 130, 246, 0.4); color: #60a5fa; }
 .badge-aws { bottom: -15px; right: 40%; animation-delay: 3s; border-color: rgba(6, 182, 212, 0.4); color: #22d3ee; }
