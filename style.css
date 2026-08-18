@@ -614,8 +614,8 @@ body {
 .badge-cloud { top: -15px; left: 70%; border-color: rgba(249, 115, 22, 0.4); color: #f97316; }
 .badge-k8s { top: 20%; right: -20px; animation-delay: 1s; border-color: rgba(59, 130, 246, 0.4); color: #60a5fa; }
 .badge-tf { top: 70%; right: -20px; animation-delay: 1s; border-color: rgba(59, 130, 246, 0.4); color: #60a5fa; }
-.badge-jenkins { bottom: 70%; left: -25px; animation-delay: 2s; border-color: rgba(168, 85, 247, 0.4); color: #c084fc; }
-.badge-ansible { bottom: 20%; left: -25px; animation-delay: 2s; border-color: rgba(168, 85, 247, 0.4); color: #c084fc; }
+.badge-jenkins { bottom: 50%; left: -40px; animation-delay: 2s; border-color: rgba(168, 85, 247, 0.4); color: #c084fc; }
+.badge-ansible { bottom: 20%; left: -40px; animation-delay: 2s; border-color: rgba(168, 85, 247, 0.4); color: #c084fc; }
 .badge-docker { bottom: -15px; right: 15%; animation-delay: 3s; border-color: rgba(6, 182, 212, 0.4); color: #22d3ee; }
 .badge-aws { bottom: -15px; right: 70%; animation-delay: 3s; border-color: rgba(6, 182, 212, 0.4); color: #22d3ee; }
 
